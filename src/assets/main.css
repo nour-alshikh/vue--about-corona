@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #2d4062;
+    --alt-color: #50658e;
+    --active: #2a81ea;
+    --red: #ff3e53;
+}
+
+.title {
+    color: var(--active);
+    font-size: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--alt-color);
+}
+
+.para {
+    color: var(--main-color);
+    word-spacing: 1.2px;
+}
